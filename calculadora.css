@@ -1,0 +1,150 @@
+* {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+    background-image: url(./fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+
+}
+
+body {
+   // display: flex;
+    background-color: #FAF9F6;
+    width: 800px;
+    border: 1px solid red;
+    margin: 50px auto;
+    background-image: none;
+    border: solid LightSlateGray;
+    border-radius: 20px;
+    box-shadow: 4px 4px 20px gray;
+}
+h1 {
+    display: flex;
+   // border: red solid 1px;
+    justify-content: center;
+    background-image: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+.list {
+    background-image: none;
+}
+
+p { 
+    margin-left: 5%;
+    margin-right: 2%;
+    justify-content: center;
+    background-image: none;
+    font-size: 16px;
+    
+    
+}
+
+ol {
+    background-image: none;
+    margin-left: 15%;
+}
+
+li {
+    font-size: 12px;
+    background-image: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #ECE7DD;
+    width: 600px;
+    margin: 20px auto;
+    background-image: none;
+    border-radius: 15px;
+    box-shadow: 2px 3px 6px gray;
+}
+
+
+.number1, .number2 {
+  position: center;
+  background: LightSlateGray;
+  border: 2px solid #424242;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 6px 16px;
+  width: 30%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+ // margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 3px 6px gray;
+  border: white;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.number1:hover, .number2:hover, #operation:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+#operation {
+    display: block;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+ //   margin-left: 25%vh auto;
+    background-image: none;
+    width: 20%;
+    font-family: 'Ubuntu', sans-serif;
+    border: white;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.resultado {
+    display: block;
+ //   margin-left: 40%;
+ 
+}
+
+.output {
+    margin-left: 17%;
+    background-image: none;
+
+}
+
+button {
+    border: white solid 1px;
+    box-shadow: 2px 2px 2px orange;
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+      
+  button:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}  
+
+
+
+
