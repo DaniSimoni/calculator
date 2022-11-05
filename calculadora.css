@@ -146,5 +146,9 @@ button {
 }  
 
 
-
+#bonus {
+    margin-left: 85%;
+    background: none;
+    color: indigo;
+}
 
