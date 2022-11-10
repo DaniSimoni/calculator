@@ -122,9 +122,21 @@ li {
 }
 
 .output {
-    margin-left: 17%;
+    display: flex;
+    margin-left:    10%;
     background-image: none;
 
+}
+
+#outputfinal {
+    display: flex;
+    background-color: LightSlateGray;
+    border-radius: 10px;
+    padding: 5px;
+    color: blue;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 button {
