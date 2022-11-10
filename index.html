@@ -25,29 +25,30 @@
     </div>
     
     <div class="container">
-    <input class="number1" type="numeric" name="" id="" required autofocus>
+    <input class="number1" type="numeric" name="" id="valor1" required autofocus>
     <select name="" id="operation">
         <option value="somar">MAIS</option>
         <option value="subtrair" selected>MENOS</option>
         <option value="multiplicar">MULTIPLICA</option>
         <option value="dividir">DIVIDE</option>
     </select>    
-    <input class="number2" type="numeric" name="" id="">
+    <input class="number2" type="numeric" name="" id="valor2">
 
 
 
-    <button class="resultado">RESULTADO</button>
+    <button class="resultado" onclick="operation()">RESULTADO</button>
     
     </div>
 
     <div class="output">
-        <p>
+        <p id="outputfinal">
             O resultado da operação é
         </p>
     </div>
     
     <a href="./tentando.html" id="bonus" type="submit"  ">Bônus</a>
     
+    <script src="./calculadoraaula.js"></script>
     
 </body>
 </html>
